@@ -1,5 +1,5 @@
 # Clean Docker with PHP
-Docker with PHP 7.4 fpm, Nginx, Composer, PhpUnit and MaridaDB
+Docker with PHP 7.4 fpm, Nginx, Composer, PhpUnit and MariaDB
 
 ## Starting app
 docker-compose up -d
