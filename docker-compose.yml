@@ -10,7 +10,7 @@ services:
       - .:/app
 
   php:
-    image: php:7.4-fpm
+    image: php:8.0.5-fpm-alpine
     build: .conf/php/
     restart: always
     expose:
@@ -23,13 +23,13 @@ services:
     working_dir: /app
 
   phpunit:
-    image: php:7.4-fpm
+    image: php:8.0.5-fpm-alpine
     volumes:
       - .:/app
     working_dir: /app
 
   fpm:
-    image: php:7.4-fpm
+    image: php:8.0.5-fpm-alpine
     restart: always
     volumes:
       - .:/app
