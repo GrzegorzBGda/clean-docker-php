@@ -20,13 +20,13 @@ docker-compose run php vendor/bin/phpunit
 change namespace "Example" in composer.json line 7 for your project name
 
 ## Connecting to MySql
-User: user
-Passwd: test-pass
-Port 3307
-DB: test-db
+1. User: user
+2. Passwd: test-pass
+3. Port 3307
+4. DB: test-db
 
 ## Using PhpUnit in PhpStorm
 1. PhpUnit By Remote Interpreter
 2. Provide full docker path to autoloader.php /opt/project/vendor/autoload.php
 
-Pro Publico Bono by Grzegorz Bielski
+####Pro publico pono by Grzegorz Bielski

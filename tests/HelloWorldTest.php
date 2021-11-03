@@ -13,6 +13,6 @@ class HelloWorldTest extends TestCase
     public function testShouldCheckIfBasketContainsAllNecessaryFields(): void
     {
         $example = new HelloWorld();
-        self::assertEquals("Hello World!", $example->getHelloWorld(), "sayHello() method is printing wrong string");
+        self::assertEquals("Hello World!", $example->getHelloWorld(), "sayHello() method is returning wrong string");
     }
 }
