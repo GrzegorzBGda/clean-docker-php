@@ -29,4 +29,4 @@ change namespace "Example" in composer.json line 7 for your project name
 1. PhpUnit By Remote Interpreter
 2. Provide full docker path to autoloader.php /opt/project/vendor/autoload.php
 
-####Pro publico pono by Grzegorz Bielski
+### Pro publico bono by Grzegorz Bielski
